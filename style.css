@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #457dc6;
+}
+
+.mainGrid {
+    width: 90%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.box {
+    text-align: center;
+    height: 50px;
+}
+
+.color1 {
+    background-color: #6599de;
+}
+
+.color2 {
+    background-color: #7aa9e7;
+}
+
+.number {
+    text-align: right;
+    height: 50px;
+}
+
+#title {
+    text-align: center;
+    font-style: bold;
+}
