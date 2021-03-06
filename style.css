@@ -4,12 +4,13 @@
 
 body {
     background-color: #457dc6;
+    padding-left: 5%;
 }
 
 .mainGrid {
     width: 90%;
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-template-columns: 20px auto auto auto auto auto auto;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -17,23 +18,37 @@ body {
 
 .box {
     text-align: center;
-    height: 50px;
+    height: 30px;
 }
 
 .color1 {
-    background-color: #6599de;
+    background-color: rgb(129, 178, 242);
 }
 
 .color2 {
-    background-color: #7aa9e7;
+    background-color: rgb(109, 154, 222);
 }
 
 .number {
     text-align: right;
-    height: 50px;
 }
 
-#title {
-    text-align: center;
+.title {
     font-style: bold;
+    font-family: 'Sigmar One';
+    font-size: 4em;
+    text-align: center;
+    -webkit-text-stroke: 2px black;
+}
+
+#smash {
+    color: rgb(57, 137, 243);
+}
+
+#karts {
+    color: rgb(224, 84, 19);
+}
+
+#ranks {
+    color: rgb(243, 206, 14);
 }
