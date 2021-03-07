@@ -4,11 +4,11 @@
 
 body {
     background-color: #457dc6;
-    padding-left: 5%;
 }
 
 .mainGrid {
-    width: 90%;
+    margin: auto;
+    width: 50%;
     display: grid;
     grid-template-columns: 30px auto auto auto auto auto auto;
     color: white;
@@ -19,6 +19,10 @@ body {
 .box {
     text-align: center;
     height: 30px;
+}
+
+.camera {
+    text-align: right;
 }
 
 .color1 {
