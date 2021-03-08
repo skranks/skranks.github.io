@@ -1,41 +1,53 @@
-* {
-    box-sizing: border-box;
-}
+* {box-sizing: border-box;}
 
 body {
     background-color: #457dc6;
-}
-
-.mainGrid {
-    margin: auto;
-    width: 50%;
-    display: grid;
-    grid-template-columns: 30px auto auto auto auto auto auto;
+    text-align: center;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.mainGrid {
+    margin: auto;
+    width: 75%;
+    display: grid;
+    grid-template-columns: min-content auto auto auto auto auto auto;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#submissionList {
+    display: grid;
+    margin: auto;
+    text-align: left;
+    width: fit-content;
+}
+
+#update {font-size: 10pt;}
+
+#discordLink {
+    font-size: 20pt;
+    color: white;
+}
+
+p {margin-bottom: 0;}
+
+ol {margin-top: 0;}
+
+li {list-style-position: inside;} /*Centers numbers with text*/
 
 .box {
     text-align: center;
     height: 30px;
 }
 
-.camera {
-    text-align: right;
-}
+.camera {text-align: right;}
 
-.color1 {
-    background-color: rgb(129, 178, 242);
-}
+.color1 {background-color: rgb(129, 178, 242);}
 
-.color2 {
-    background-color: rgb(109, 154, 222);
-}
+.color2 {background-color: rgb(109, 154, 222);}
 
-.number {
-    text-align: right;
-}
+.number {text-align: right;}
 
 .title {
     font-style: bold;
@@ -45,14 +57,8 @@ body {
     -webkit-text-stroke: 2px black;
 }
 
-#smash {
-    color: rgb(57, 137, 243);
-}
+#smash {color: rgb(57, 137, 243);}
 
-#karts {
-    color: rgb(224, 84, 19);
-}
+#karts {color: rgb(224, 84, 19);}
 
-#ranks {
-    color: rgb(243, 206, 14);
-}
+#ranks {color: rgb(243, 206, 14);}
