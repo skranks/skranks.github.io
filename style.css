@@ -10,10 +10,8 @@ body {
 
 .mainGrid {
     margin: auto;
-    width: 75%;
     width: 50%;
     display: grid;
-    grid-template-columns: min-content auto auto auto auto auto auto;
     grid-template-columns: max-content auto auto auto auto auto auto auto;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -55,7 +53,6 @@ li {
     height: 30px;
 }
 
-.camera {text-align: right;}
 .camera {
     color: white;
 }
@@ -98,5 +95,5 @@ footer {
 
 #lightbox img {
     box-shadow:0 0 25px #111;
-    max-width:100%;
+    max-width:90%;
 }
