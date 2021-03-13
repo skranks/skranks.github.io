@@ -10,9 +10,9 @@ body {
 
 .mainGrid {
     margin: auto;
-    width: 75%;
+    width: 50%;
     display: grid;
-    grid-template-columns: min-content auto auto auto auto auto auto;
+    grid-template-columns: max-content auto auto auto auto auto auto auto;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -53,13 +53,18 @@ li {
     height: 30px;
 }
 
-.camera {text-align: right;}
+.camera {
+.camera a{
+    color: white;
+}
 
 .color1 {background-color: rgb(129, 178, 242);}
 
 .color2 {background-color: rgb(109, 154, 222);}
 
 .number {text-align: right;}
+
+.name {text-align: left;}
 
 footer {
     border-top: 1px solid black;
@@ -70,4 +75,27 @@ footer {
     padding: 20px;
     max-width: 100%;
     height: auto;
+}
+
+#lightbox {
+    position:fixed; /* keeps the lightbox window in the current viewport */
+    top:0; 
+    left:0; 
+    width:100%; 
+    height:100%; 
+    background:rgba(0,0,0,.7); 
+    text-align:center;
+}
+
+#lightbox p {
+    text-align:right; 
+    color:#fff;
+    width: 95%;
+    margin-right:100%; 
+    font-size:50pt; 
+}
+
+#lightbox img {
+    box-shadow:0 0 25px #111;
+    max-width:80%;
 }
