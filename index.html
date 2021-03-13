@@ -5,61 +5,6 @@
         <link rel="stylesheet" type="text/css" href="style.css">
         <link href='https://fonts.googleapis.com/css?family=Sigmar One' rel='stylesheet'>
         <script src="https://kit.fontawesome.com/ad8eb128d3.js" crossorigin="anonymous"></script>
-        <script src="https://code.jquery.com/jquery-1.6.2.min.js"></script>
-
-        <script>
-            jQuery(document).ready(function($) {
-                 
-                $('.lightbox_trigger').click(function(e) {
-                     
-                    //prevent default action (hyperlink)
-                    e.preventDefault();
-                     
-                    //Get clicked link href
-                    var image_href = $(this).attr("href");
-                     
-                    /*  
-                    If the lightbox window HTML already exists in document, 
-                    change the img src to to match the href of whatever link was clicked
-                     
-                    If the lightbox window HTML doesn't exists, create it and insert it.
-                    (This will only happen the first time around)
-                    */
-                     
-                    if ($('#lightbox').length > 0) { // #lightbox exists
-                         
-                        //place href as img src value
-                        $('#content').html('<img src="' + image_href + '" />');
-                         
-                        //show lightbox window - you could use .show('fast') for a transition
-                        $('#lightbox').show();
-                    }
-                     
-                    else { //#lightbox does not exist - create and insert (runs 1st time only)
-                         
-                        //create HTML markup for lightbox window
-                        var lightbox = 
-                        '<div id="lightbox">' +
-                            '<p>Click to close</p>' +
-                            '<div id="content">' + //insert clicked link's href into img src
-                                '<img src="' + image_href +'" />' +
-                            '</div>' +    
-                        '</div>';
-                             
-                        //insert lightbox HTML into page
-                        $('body').append(lightbox);
-                    }
-                     
-                });
-                 
-                //Click anywhere on the page to get rid of lightbox window
-                $('body').on('click', '#lightbox', function() { //must use on, as the lightbox element is inserted into the DOM
-                    $('#lightbox').hide();
-                });
-             
-            });
-            </script>
-
     </head>
     <body>
         <img src="Images/title.png" alt="Smash Karts Ranks" id="title">
@@ -140,28 +85,28 @@
             <div class="box color2"><a href="Images/Screenshots/haedcase.png" class="lightbox_trigger"><i class="fas fa-camera"></i></a></div>
             <div class="name color2">haedcase</div>
             <div class="box color2">2.19</div>
-            <div class="box color2">73,113</div>
-            <div class="box color2">130</div>
-            <div class="box color2">33,327</div>
-            <div class="box color2">4,766</div>
+            <div class="box color2">74,159</div>
+            <div class="box color2">135</div>
+            <div class="box color2">33,910</div>
+            <div class="box color2">4,809</div>
 
             <div class="number color1">9.&nbsp;</div>
             <div class="box color1"><a href="Images/Screenshots/ProMaster.png" class="lightbox_trigger"><i class="fas fa-camera"></i></a></div>
             <div class="name color1">ProMaster</div>
-            <div class="box color1">2.12</div>
-            <div class="box color1">33,163</div>
-            <div class="box color1">1,909</div>
-            <div class="box color1">15,678</div>
-            <div class="box color1">2,101</div>
+            <div class="box color1">2.14</div>
+            <div class="box color1">36,650</div>
+            <div class="box color1">1,966</div>
+            <div class="box color1">17,164</div>
+            <div class="box color1">2,307</div>
 
             <div class="number color2">10.&nbsp;</div>
             <div class="box color2"><a href="Images/Screenshots/TomCruise.png" class="lightbox_trigger"><i class="fas fa-camera"></i></a></div>
             <div class="name color2">TomCruise</div>
-            <div class="box color2">1.88</div>
-            <div class="box color2">10,273</div>
-            <div class="box color2">589</div>
-            <div class="box color2">5,473</div>
-            <div class="box color2">594</div>
+            <div class="box color2">1.91</div>
+            <div class="box color2">12,991</div>
+            <div class="box color2">712</div>
+            <div class="box color2">6,807</div>
+            <div class="box color2">752</div>
 
             <div class="number color1">11.&nbsp;</div>
             <div class="box color1"><a href="Images/Screenshots/Player3480.png" class="lightbox_trigger"><i class="fas fa-camera"></i></a></div>
@@ -307,5 +252,59 @@
             Please note: This is an unofficial fan site and is unaffiliated with Tall Team. 
             This is simply a personal project for the Smash Karts community.
         </footer>
+        <script src="Scripts/jquery.js"></script>
+
+        <script>
+            jQuery(document).ready(function($) {
+                 
+                $('.lightbox_trigger').click(function(e) {
+                     
+                    //prevent default action (hyperlink)
+                    e.preventDefault();
+                     
+                    //Get clicked link href
+                    var image_href = $(this).attr("href");
+                     
+                    /*  
+                    If the lightbox window HTML already exists in document, 
+                    change the img src to to match the href of whatever link was clicked
+                     
+                    If the lightbox window HTML doesn't exists, create it and insert it.
+                    (This will only happen the first time around)
+                    */
+                     
+                    if ($('#lightbox').length > 0) { // #lightbox exists
+                         
+                        //place href as img src value
+                        $('#content').html('<img src="' + image_href + '" />');
+                         
+                        //show lightbox window - you could use .show('fast') for a transition
+                        $('#lightbox').show();
+                    }
+                     
+                    else { //#lightbox does not exist - create and insert (runs 1st time only)
+                         
+                        //create HTML markup for lightbox window
+                        var lightbox = 
+                        '<div id="lightbox">' +
+                            '<p><i class="far fa-times-circle"></i></p>' +
+                            '<div id="content">' + //insert clicked link's href into img src
+                                '<img src="' + image_href +'" />' +
+                            '</div>' +    
+                        '</div>';
+                             
+                        //insert lightbox HTML into page
+                        $('body').append(lightbox);
+                    }
+                     
+                });
+                 
+                //Click anywhere on the page to get rid of lightbox window
+                $('body').on('click', '#lightbox', function() { //must use on, as the lightbox element is inserted into the DOM
+                    $('#lightbox').hide();
+                });
+            });
+
+        </script>
     </body>
 </html>
