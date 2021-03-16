@@ -10,11 +10,14 @@ body {
 
 .mainGrid {
     margin: auto;
-    width: 50%;
+    width: max-content;
     display: grid;
     grid-template-columns: max-content auto auto auto auto auto auto auto;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 5px solid white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
 }
 
 #submissionList {
@@ -24,7 +27,10 @@ body {
     width: fit-content;
 }
 
-#update {font-size: 10pt;}
+#update {
+    font-size: 10pt;
+    padding-top: 15px;
+}
 
 #discordLink {
     font-size: 20pt;
@@ -49,21 +55,61 @@ li {
 } 
 
 .box {
-    text-align: center;
-    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    padding: 10px;
 }
 
-.camera a{
-    color: white;
+.categories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    padding: 10px;
+    border-bottom: 2px solid white;
+}
+
+.categoriesName {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 60px;
+    padding: 10px;
+    border-bottom: 2px solid white;
 }
 
 .color1 {background-color: rgb(129, 178, 242);}
 
 .color2 {background-color: rgb(109, 154, 222);}
 
-.number {text-align: right;}
+.number {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+}
 
-.name {text-align: left;}
+.box a{
+    color: white;
+    box-shadow: 2px 2px 3px #457dc6;
+    padding: 5px;
+    font-size: 20pt;
+}
+
+.box a:hover{
+    transform: scale(1.1);
+    transition-duration: .2s;
+    box-shadow: 0 0 5px #457dc6;
+}
+
+.name {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 10px;
+}
 
 footer {
     border-top: 1px solid black;
@@ -77,8 +123,8 @@ footer {
 }
 
 @keyframes lightboxAnim {
-    from {transform: scale(0,0);}
-    to {transform: scale(1,1);}
+    from {transform: scale(0);}
+    to {transform: scale(1);}
 }
 
 #lightbox {
