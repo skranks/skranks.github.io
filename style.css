@@ -94,6 +94,7 @@ li {
 .box a{
     color: white;
     box-shadow: 2px 2px 3px #457dc6;
+    border-radius: 3px;
     padding: 5px;
     font-size: 20pt;
 }
