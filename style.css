@@ -132,10 +132,10 @@ footer {
     position: fixed; /* keeps the lightbox window in the current viewport*/
     top: 50%; 
     left: 50%;
-    margin-top: -272px;
+    margin-top: -282px;
     margin-left: -425px;
     width: 850px; 
-    height: 545px;
+    height: 565px;
     overflow: hidden;
     background:rgba(0,0,0,.7);
     border: 10px solid white;
