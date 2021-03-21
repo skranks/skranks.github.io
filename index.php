@@ -30,11 +30,11 @@
             <div class="number color2">2.</div>
             <div class="box color2"><a href="Images/Screenshots/Waris Ja.png" class="lightbox_trigger"><i class="fas fa-camera"></i></a></div>
             <div class="name color2">Waris Ja</div>
-            <div class="box color2">2.92</div>
-            <div class="box color2">25,143</div>
-            <div class="box color2">411</div>
-            <div class="box color2">8,621</div>
-            <div class="box color2">2,028</div>
+            <div class="box color2">3.00</div>
+            <div class="box color2">29,276</div>
+            <div class="box color2">421</div>
+            <div class="box color2">9,771</div>
+            <div class="box color2">2,335</div>
           
             <div class="number color1">3.</div>
             <div class="box color1"><a href="Images/Screenshots/Alexander.png" class="lightbox_trigger"><i class="fas fa-camera"></i></a></div>
@@ -93,11 +93,11 @@
             <div class="number color1">9.</div>
             <div class="box color1"><a href="Images/Screenshots/haedcase.png" class="lightbox_trigger"><i class="fas fa-camera"></i></a></div>
             <div class="name color1">haedcase</div>
-            <div class="box color1">2.19</div>
-            <div class="box color1">73,113</div>
-            <div class="box color1">130</div>
-            <div class="box color1">33,327</div>
-            <div class="box color1">4,766</div>
+            <div class="box color1">2.20</div>
+            <div class="box color1">77,924</div>
+            <div class="box color1">139</div>
+            <div class="box color1">35,467</div>
+            <div class="box color1">5,050</div>
 
             <div class="number color2">10.</div>
             <div class="box color2"><a href="Images/Screenshots/ProMaster.png" class="lightbox_trigger"><i class="fas fa-camera"></i></a></div>
@@ -109,196 +109,205 @@
             <div class="box color2">2,307</div>
 
             <div class="number color1">11.</div>
-            <div class="box color1"><a href="Images/Screenshots/TomCruise.png" class="lightbox_trigger"><i class="fas fa-camera"></i></a></div>
-            <div class="name color1">TomCruise</div>
-            <div class="box color1">1.96</div>
-            <div class="box color1">14,451</div>
-            <div class="box color1">753</div>
-            <div class="box color1">7,385</div>
-            <div class="box color1">859</div>
+            <div class="box color1"><a href="Images/Screenshots/Forward.png" class="lightbox_trigger"><i class="fas fa-camera"></i></a></div>
+            <div class="name color1">Forward</div>
+            <div class="box color1">2.04</div>
+            <div class="box color1">5,308</div>
+            <div class="box color1">416</div>
+            <div class="box color1">2,604</div>
+            <div class="box color1">294</div>
 
             <div class="number color2">12.</div>
-            <div class="box color2"><a href="Images/Screenshots/Forward.png" class="lightbox_trigger"><i class="fas fa-camera"></i></a></div>
-            <div class="name color2">Forward</div>
-            <div class="box color2">1.95</div>
-            <div class="box color2">4,292</div>
-            <div class="box color2">349</div>
-            <div class="box color2">2,206</div>
-            <div class="box color2">255</div>
+            <div class="box color2"><a href="Images/Screenshots/TomCruise.png" class="lightbox_trigger"><i class="fas fa-camera"></i></a></div>
+            <div class="name color2">TomCruise</div>
+            <div class="box color2">1.96</div>
+            <div class="box color2">14,451</div>
+            <div class="box color2">753</div>
+            <div class="box color2">7,385</div>
+            <div class="box color2">859</div>
 
             <div class="number color1">13.</div>
-            <div class="box color1"><a href="Images/Screenshots/Player3480.png" class="lightbox_trigger"><i class="fas fa-camera"></i></a></div>
-            <div class="name color1">Player3480</div>
-            <div class="box color1">1.85</div>
-            <div class="box color1">13,223</div>
-            <div class="box color1">501</div>
-            <div class="box color1">7,166</div>
-            <div class="box color1">654</div>
+            <div class="box color1"><a href="Images/Screenshots/kps.png" class="lightbox_trigger"><i class="fas fa-camera"></i></a></div>
+            <div class="name color1">kps</div>
+            <div class="box color1">1.93</div>
+            <div class="box color1">11,613</div>
+            <div class="box color1">141</div>
+            <div class="box color1">6,007</div>
+            <div class="box color1">770</div>
 
             <div class="number color2">14.</div>
-            <div class="box color2"><a href="Images/Screenshots/Kolider.png" class="lightbox_trigger"><i class="fas fa-camera"></i></a></div>
-            <div class="name color2">Kolider</div>
-            <div class="box color2">1.79</div>
-            <div class="box color2">8,020</div>
-            <div class="box color2">2,282</div>
-            <div class="box color2">4,490</div>
-            <div class="box color2">728</div>
+            <div class="box color2"><a href="Images/Screenshots/Player3480.png" class="lightbox_trigger"><i class="fas fa-camera"></i></a></div>
+            <div class="name color2">Player3480</div>
+            <div class="box color2">1.85</div>
+            <div class="box color2">13,223</div>
+            <div class="box color2">501</div>
+            <div class="box color2">7,166</div>
+            <div class="box color2">654</div>
 
             <div class="number color1">15.</div>
-            <div class="box color1"><a href="Images/Screenshots/Bowser.png" class="lightbox_trigger"><i class="fas fa-camera"></i></a></div>
-            <div class="name color1">Bowser</div>
-            <div class="box color1">1.67</div>
-            <div class="box color1">14,363</div>
-            <div class="box color1">7,688</div>
-            <div class="box color1">8,596</div>
-            <div class="box color1">979</div>
+            <div class="box color1"><a href="Images/Screenshots/Kolider.png" class="lightbox_trigger"><i class="fas fa-camera"></i></a></div>
+            <div class="name color1">Kolider</div>
+            <div class="box color1">1.79</div>
+            <div class="box color1">8,020</div>
+            <div class="box color1">2,282</div>
+            <div class="box color1">4,490</div>
+            <div class="box color1">728</div>
 
             <div class="number color2">16.</div>
-            <div class="box color2"><a href="Images/Screenshots/bhol.png" class="lightbox_trigger"><i class="fas fa-camera"></i></a></div>
-            <div class="name color2">bhol</div>
-            <div class="box color2">1.66</div>
-            <div class="box color2">19,412</div>
-            <div class="box color2">1,784</div>
-            <div class="box color2">11,716</div>
-            <div class="box color2">1,305</div>
+            <div class="box color2"><a href="Images/Screenshots/Bowser.png" class="lightbox_trigger"><i class="fas fa-camera"></i></a></div>
+            <div class="name color2">Bowser</div>
+            <div class="box color2">1.67</div>
+            <div class="box color2">14,363</div>
+            <div class="box color2">7,688</div>
+            <div class="box color2">8,596</div>
+            <div class="box color2">979</div>
 
             <div class="number color1">17.</div>
-            <div class="box color1"><a href="Images/Screenshots/NONAME.png" class="lightbox_trigger"><i class="fas fa-camera"></i></a></div>
-            <div class="name color1">NONAME</div>
-            <div class="box color1">1.65</div>
-            <div class="box color1">3,413</div>
-            <div class="box color1">276</div>
-            <div class="box color1">2,064</div>
-            <div class="box color1">246</div>
+            <div class="box color1"><a href="Images/Screenshots/bhol.png" class="lightbox_trigger"><i class="fas fa-camera"></i></a></div>
+            <div class="name color1">bhol</div>
+            <div class="box color1">1.66</div>
+            <div class="box color1">19,412</div>
+            <div class="box color1">1,784</div>
+            <div class="box color1">11,716</div>
+            <div class="box color1">1,305</div>
 
             <div class="number color2">18.</div>
-            <div class="box color2"><a href="Images/Screenshots/golu.png" class="lightbox_trigger"><i class="fas fa-camera"></i></a></div>
-            <div class="name color2">golu</div>
-            <div class="box color2">1.63</div>
-            <div class="box color2">22,268</div>
-            <div class="box color2">1,477</div>
-            <div class="box color2">13,637</div>
-            <div class="box color2">1,468</div>
+            <div class="box color2"><a href="Images/Screenshots/NONAME.png" class="lightbox_trigger"><i class="fas fa-camera"></i></a></div>
+            <div class="name color2">NONAME</div>
+            <div class="box color2">1.65</div>
+            <div class="box color2">3,413</div>
+            <div class="box color2">276</div>
+            <div class="box color2">2,064</div>
+            <div class="box color2">246</div>
 
             <div class="number color1">19.</div>
-            <div class="box color1"><a href="Images/Screenshots/BAM'erica.png" class="lightbox_trigger"><i class="fas fa-camera"></i></a></div>
-            <div class="name color1">BAM'erica</div>
-            <div class="box color1">1.61</div>
-            <div class="box color1">9,341</div>
-            <div class="box color1">550</div>
-            <div class="box color1">5,815</div>
-            <div class="box color1">227</div>
+            <div class="box color1"><a href="Images/Screenshots/golu.png" class="lightbox_trigger"><i class="fas fa-camera"></i></a></div>
+            <div class="name color1">golu</div>
+            <div class="box color1">1.63</div>
+            <div class="box color1">22,268</div>
+            <div class="box color1">1,477</div>
+            <div class="box color1">13,637</div>
+            <div class="box color1">1,468</div>
 
             <div class="number color2">20.</div>
-            <div class="box color2"><a href="Images/Screenshots/Avikatron.png" class="lightbox_trigger"><i class="fas fa-camera"></i></a></div>
-            <div class="name color2">Avikatron</div>
-            <div class="box color2">1.58</div>
-            <div class="box color2">1,054</div>
-            <div class="box color2">11</div>
-            <div class="box color2">666</div>
-            <div class="box color2">48</div>
+            <div class="box color2"><a href="Images/Screenshots/BAM'erica.png" class="lightbox_trigger"><i class="fas fa-camera"></i></a></div>
+            <div class="name color2">BAM'erica</div>
+            <div class="box color2">1.62</div>
+            <div class="box color2">9,460</div>
+            <div class="box color2">551</div>
+            <div class="box color2">5,855</div>
+            <div class="box color2">228</div>
 
             <div class="number color1">21.</div>
-            <div class="box color1"><a href="Images/Screenshots/seanysean.png" class="lightbox_trigger"><i class="fas fa-camera"></i></a></div>
-            <div class="name color1">seanysean</div>
-            <div class="box color1">1.55</div>
-            <div class="box color1">14,977</div>
-            <div class="box color1">489</div>
-            <div class="box color1">9,673</div>
-            <div class="box color1">746</div>
+            <div class="box color1"><a href="Images/Screenshots/Avikatron.png" class="lightbox_trigger"><i class="fas fa-camera"></i></a></div>
+            <div class="name color1">Avikatron</div>
+            <div class="box color1">1.58</div>
+            <div class="box color1">1,054</div>
+            <div class="box color1">11</div>
+            <div class="box color1">666</div>
+            <div class="box color1">48</div>
 
             <div class="number color2">22.</div>
-            <div class="box color2"><a href="Images/Screenshots/Drew.png" class="lightbox_trigger"><i class="fas fa-camera"></i></a></div>
-            <div class="name color2">Drew</div>
-            <div class="box color2">1.50</div>
-            <div class="box color2">4,616</div>
-            <div class="box color2">229</div>
-            <div class="box color2">3,078</div>
-            <div class="box color2">282</div>
+            <div class="box color2"><a href="Images/Screenshots/seanysean.png" class="lightbox_trigger"><i class="fas fa-camera"></i></a></div>
+            <div class="name color2">seanysean</div>
+            <div class="box color2">1.55</div>
+            <div class="box color2">14,977</div>
+            <div class="box color2">489</div>
+            <div class="box color2">9,673</div>
+            <div class="box color2">746</div>
 
             <div class="number color1">23.</div>
-            <div class="box color1"><a href="Images/Screenshots/SombreroCat1.png" class="lightbox_trigger"><i class="fas fa-camera"></i></a></div>
-            <div class="name color1">SombreroCat1</div>
-            <div class="box color1">1.48</div>
-            <div class="box color1">3,402</div>
-            <div class="box color1">567</div>
-            <div class="box color1">2,298</div>
-            <div class="box color1">243</div>
+            <div class="box color1"><a href="Images/Screenshots/Drew.png" class="lightbox_trigger"><i class="fas fa-camera"></i></a></div>
+            <div class="name color1">Drew</div>
+            <div class="box color1">1.50</div>
+            <div class="box color1">4,616</div>
+            <div class="box color1">229</div>
+            <div class="box color1">3,078</div>
+            <div class="box color1">282</div>
 
             <div class="number color2">24.</div>
-            <div class="box color2"><a href="Images/Screenshots/Junini.png" class="lightbox_trigger"><i class="fas fa-camera"></i></a></div>
-            <div class="name color2">Junini</div>
-            <div class="box color2">1.47</div>
-            <div class="box color2">23,855</div>
-            <div class="box color2">4,673</div>
-            <div class="box color2">16,279</div>
-            <div class="box color2">787</div>
+            <div class="box color2"><a href="Images/Screenshots/SombreroCat1.png" class="lightbox_trigger"><i class="fas fa-camera"></i></a></div>
+            <div class="name color2">SombreroCat1</div>
+            <div class="box color2">1.48</div>
+            <div class="box color2">3,402</div>
+            <div class="box color2">567</div>
+            <div class="box color2">2,298</div>
+            <div class="box color2">243</div>
 
             <div class="number color1">25.</div>
-            <div class="box color1"><a href="Images/Screenshots/Manush.png" class="lightbox_trigger"><i class="fas fa-camera"></i></a></div>
-            <div class="name color1">Manush</div>
-            <div class="box color1">1.44</div>
-            <div class="box color1">1,655</div>
-            <div class="box color1">6</div>
-            <div class="box color1">1,147</div>
-            <div class="box color1">45</div>
+            <div class="box color1"><a href="Images/Screenshots/Junini.png" class="lightbox_trigger"><i class="fas fa-camera"></i></a></div>
+            <div class="name color1">Junini</div>
+            <div class="box color1">1.47</div>
+            <div class="box color1">23,855</div>
+            <div class="box color1">4,673</div>
+            <div class="box color1">16,279</div>
+            <div class="box color1">787</div>
 
             <div class="number color2">26.</div>
-            <div class="box color2"><a href="Images/Screenshots/Prince of Darkness.png" class="lightbox_trigger"><i class="fas fa-camera"></i></a></div>
-            <div class="name color2">Prince of Darkness</div>
-            <div class="box color2">1.42</div>
-            <div class="box color2">2,612</div>
-            <div class="box color2">231</div>
-            <div class="box color2">1,835</div>
-            <div class="box color2">104</div>
+            <div class="box color2"><a href="Images/Screenshots/Manush.png" class="lightbox_trigger"><i class="fas fa-camera"></i></a></div>
+            <div class="name color2">Manush</div>
+            <div class="box color2">1.44</div>
+            <div class="box color2">1,655</div>
+            <div class="box color2">6</div>
+            <div class="box color2">1,147</div>
+            <div class="box color2">45</div>
 
             <div class="number color1">27.</div>
-            <div class="box color1"><a href="Images/Screenshots/ZePiggman.png" class="lightbox_trigger"><i class="fas fa-camera"></i></a></div>
-            <div class="name color1">ZePiggman</div>
-            <div class="box color1">1.31</div>
-            <div class="box color1">4,880</div>
-            <div class="box color1">110</div>
-            <div class="box color1">3,726</div>
-            <div class="box color1">256</div>
+            <div class="box color1"><a href="Images/Screenshots/Prince of Darkness.png" class="lightbox_trigger"><i class="fas fa-camera"></i></a></div>
+            <div class="name color1">Prince of Darkness</div>
+            <div class="box color1">1.42</div>
+            <div class="box color1">2,612</div>
+            <div class="box color1">231</div>
+            <div class="box color1">1,835</div>
+            <div class="box color1">104</div>
 
             <div class="number color2">28.</div>
-            <div class="box color2"><a href="Images/Screenshots/KI123NG.png" class="lightbox_trigger"><i class="fas fa-camera"></i></a></div>
-            <div class="name color2">KI123NG</div>
-            <div class="box color2">1.30</div>
-            <div class="box color2">4,894</div>
-            <div class="box color2">118</div>
-            <div class="box color2">3,765</div>
-            <div class="box color2">217</div>
+            <div class="box color2"><a href="Images/Screenshots/ZePiggman.png" class="lightbox_trigger"><i class="fas fa-camera"></i></a></div>
+            <div class="name color2">ZePiggman</div>
+            <div class="box color2">1.31</div>
+            <div class="box color2">4,880</div>
+            <div class="box color2">110</div>
+            <div class="box color2">3,726</div>
+            <div class="box color2">256</div>
 
             <div class="number color1">29.</div>
-            <div class="box color1"><a href="Images/Screenshots/IcyPro.png" class="lightbox_trigger"><i class="fas fa-camera"></i></a></div>
-            <div class="name color1">IcyPro</div>
-            <div class="box color1">1.23</div>
-            <div class="box color1">9,135</div>
-            <div class="box color1">870</div>
-            <div class="box color1">7,434</div>
-            <div class="box color1">575</div>
+            <div class="box color1"><a href="Images/Screenshots/KI123NG.png" class="lightbox_trigger"><i class="fas fa-camera"></i></a></div>
+            <div class="name color1">KI123NG</div>
+            <div class="box color1">1.30</div>
+            <div class="box color1">4,894</div>
+            <div class="box color1">118</div>
+            <div class="box color1">3,765</div>
+            <div class="box color1">217</div>
 
             <div class="number color2">30.</div>
-            <div class="box color2"><a href="Images/Screenshots/Supremo.png" class="lightbox_trigger"><i class="fas fa-camera"></i></a></div>
-            <div class="name color2">Supremo</div>
-            <div class="box color2">1.22</div>
-            <div class="box color2">6,464</div>
-            <div class="box color2">784</div>
-            <div class="box color2">5,316</div>
-            <div class="box color2">451</div>
+            <div class="box color2"><a href="Images/Screenshots/IcyPro.png" class="lightbox_trigger"><i class="fas fa-camera"></i></a></div>
+            <div class="name color2">IcyPro</div>
+            <div class="box color2">1.23</div>
+            <div class="box color2">9,135</div>
+            <div class="box color2">870</div>
+            <div class="box color2">7,434</div>
+            <div class="box color2">575</div>
 
             <div class="number color1">31.</div>
-            <div class="box color1"><a href="Images/Screenshots/2Fast2Furious.jpg" class="lightbox_trigger"><i class="fas fa-camera"></i></a></div>
-            <div class="name color1">2Fast2Furious</div>
-            <div class="box color1">1.08</div>
-            <div class="box color1">1,754</div>
-            <div class="box color1">77</div>
-            <div class="box color1">1,617</div>
-            <div class="box color1">94</div>
+            <div class="box color1"><a href="Images/Screenshots/Supremo.png" class="lightbox_trigger"><i class="fas fa-camera"></i></a></div>
+            <div class="name color1">Supremo</div>
+            <div class="box color1">1.22</div>
+            <div class="box color1">6,464</div>
+            <div class="box color1">784</div>
+            <div class="box color1">5,316</div>
+            <div class="box color1">451</div>
+
+            <div class="number color2">32.</div>
+            <div class="box color2"><a href="Images/Screenshots/2Fast2Furious.jpg" class="lightbox_trigger"><i class="fas fa-camera"></i></a></div>
+            <div class="name color2">2Fast2Furious</div>
+            <div class="box color2">1.08</div>
+            <div class="box color2">1,754</div>
+            <div class="box color2">77</div>
+            <div class="box color2">1,617</div>
+            <div class="box color2">94</div>
         </div>
 
-        <div id="update">Last updated: 3/16/2021</div>
+        <div id="update">Last updated: 3/21/2021</div>
 
         <!--<p>To be included in the leaderboard, or to update your stats, please DM haedcase 
             <a href="http://discordapp.com/users/696072046374813776"><i class="fab fa-discord" id="discordLink"></i></a> 

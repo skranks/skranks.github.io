@@ -1,8 +1,5 @@
 <?php
 
-$nameErr = $kdrErr = $killsErr = $botsKillsErr = $deathsErr = $winsErr = $imgErr = "";
-$name = $kdr = $kills = $botsKills = $deaths = $wins = $newName = "";
-
 $target_dir = "uploads/";
 $target_file = $target_dir . basename($_FILES["screenshot"]["name"]);
 $newName = $target_dir . pathinfo($target_file,PATHINFO_FILENAME);
