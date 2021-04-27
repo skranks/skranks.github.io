@@ -8,7 +8,7 @@ body {
     font-size: 12pt;
 }
 
-.mainGrid {
+#mainGrid {
     margin: auto;
     width: max-content;
     display: grid;
