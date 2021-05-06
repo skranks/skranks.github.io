@@ -159,4 +159,5 @@ footer {
 
 #lightbox img {
     max-width:1300px;
+    max-height: 600px;
 }
