@@ -61,6 +61,7 @@ li {
 
 .box {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 60px;
@@ -88,6 +89,8 @@ li {
 .color1 {background-color: rgb(129, 178, 242);}
 
 .color2 {background-color: rgb(109, 154, 222);}
+
+.date {font-size: 8pt;}
 
 .number {
     display: flex;

@@ -4,7 +4,10 @@ const plus = '<i class="fas fa-plus-circle arrow"></i>';
 
 const player = [
                     ['haedcase.png',
-                     'haedcase',
+                     '<div>' +
+                     'haedcase<br>' +
+                     '<span class="date">5/13/2021</span>' +
+                     '</div>',
                      '5,891',
                      '90,791',
                      '140',
