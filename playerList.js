@@ -1036,3 +1036,4 @@ let player = [
      '5/18/2021']
 ];
 let sortedPlayer = player.sort((a, b)=>b[2]-a[2]);
+const newPlayer = '&nbsp;<img class="newPlayer" src="Images/new-icon-28.png">';
