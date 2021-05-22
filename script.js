@@ -1,5 +1,3 @@
-const newPlayer = '&nbsp;<img class="newPlayer" src="Images/new-icon-28.png">';
-
 let rank = 1;
 
 function fillGrid() {
