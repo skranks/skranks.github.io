@@ -1189,7 +1189,7 @@ let player = [
      '5.19.2021']
 ];
 
-function sortByName() {
+function sortByNameUp() {
     document.getElementById('mainGrid').innerHTML = markup;
     sortedPlayer = player.sort((a, b) => a[1].localeCompare(b[1]));
     /*sortedPlayer = player.sort();*/
@@ -1197,51 +1197,108 @@ function sortByName() {
     fillGrid();
 }
 
-function sortByWins() {
+function sortByNameDown() {
+    document.getElementById('mainGrid').innerHTML = markup;
+    sortedPlayer = player.sort((a, b) => b[1].localeCompare(a[1]));
+    /*sortedPlayer = player.sort();*/
+
+    fillGrid();
+}
+
+function sortByWinsUp() {
     document.getElementById('mainGrid').innerHTML = markup;
     sortedPlayer = player.sort((a, b)=>b[2]-a[2]);
 
     fillGrid();
 }
 
-function sortByKills() {
+function sortByWinsDown() {
+    document.getElementById('mainGrid').innerHTML = markup;
+    sortedPlayer = player.sort((a, b)=>a[2]-b[2]);
+
+    fillGrid();
+}
+
+function sortByKillsUp() {
     document.getElementById('mainGrid').innerHTML = markup;
     sortedPlayer = player.sort((a, b)=>b[3]-a[3]);
 
     fillGrid();
 }
 
-function sortByBotKills() {
+function sortByKillsDown() {
+    document.getElementById('mainGrid').innerHTML = markup;
+    sortedPlayer = player.sort((a, b)=>a[3]-b[3]);
+
+    fillGrid();
+}
+
+function sortByBotKillsUp() {
     document.getElementById('mainGrid').innerHTML = markup;
     sortedPlayer = player.sort((a, b)=>b[4]-a[4]);
 
     fillGrid();
 }
 
-function sortByDeaths() {
+function sortByBotKillsDown() {
+    document.getElementById('mainGrid').innerHTML = markup;
+    sortedPlayer = player.sort((a, b)=>a[4]-b[4]);
+
+    fillGrid();
+}
+
+function sortByDeathsUp() {
     document.getElementById('mainGrid').innerHTML = markup;
     sortedPlayer = player.sort((a, b)=>b[5]-a[5]);
 
     fillGrid();
 }
 
-function sortByKdr() {
+function sortByDeathsDown() {
+    document.getElementById('mainGrid').innerHTML = markup;
+    sortedPlayer = player.sort((a, b)=>a[5]-b[5]);
+
+    fillGrid();
+}
+
+function sortByKdrUp() {
     document.getElementById('mainGrid').innerHTML = markup;
     sortedPlayer = player.sort((a, b)=>b[6]-a[6]);
 
     fillGrid();
 }
 
-function sortByLevel() {
+function sortByKdrDown() {
+    document.getElementById('mainGrid').innerHTML = markup;
+    sortedPlayer = player.sort((a, b)=>a[6]-b[6]);
+
+    fillGrid();
+}
+
+function sortByLevelUp() {
     document.getElementById('mainGrid').innerHTML = markup;
     sortedPlayer = player.sort((a, b)=>b[7]-a[7]);
 
     fillGrid();
 }
 
-function sortByDate() {
+function sortByLevelDown() {
+    document.getElementById('mainGrid').innerHTML = markup;
+    sortedPlayer = player.sort((a, b)=>a[7]-b[7]);
+
+    fillGrid();
+}
+
+function sortByDateUp() {
     document.getElementById('mainGrid').innerHTML = markup;
     sortedPlayer = player.sort((a, b) => b[8].localeCompare(a[8]));
+
+    fillGrid();
+}
+
+function sortByDateDown() {
+    document.getElementById('mainGrid').innerHTML = markup;
+    sortedPlayer = player.sort((a, b) => a[8].localeCompare(b[8]));
 
     fillGrid();
 }
