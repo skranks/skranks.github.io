@@ -1135,7 +1135,7 @@ let player = [
      '1.23',
      10,
      '5/23/2021'],
-    ['OutRun.png',
+    ['Outrun.png',
      'OutRun',
      1974,
      32419,
