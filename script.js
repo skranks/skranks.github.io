@@ -56,7 +56,6 @@ function fillGrid() {
 
             rank++;
         }
-        console.log(boxes);
         document.getElementById('mainGrid').innerHTML = markup + boxes;
     lightboxReset();
             }
