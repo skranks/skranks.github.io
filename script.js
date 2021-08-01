@@ -22,14 +22,14 @@ let markup = '<div class="categoriesLeft"></div>' +
 function fillGrid() {
     let color;
     rank = 1;
-    let boxes;
+    let boxes = '';
 
     for (let i=0; i < sortedPlayer.length; i++) {
         if (i % 2 == 0) {color = 'color1';}
             else {color = 'color2';}
 
             if(i + 1 == sortedPlayer.length) {
-                boxes = '<div class="numberBottom ' + color + '">' + rank + '.</div>' + 
+                boxes += '<div class="numberBottom ' + color + '">' + rank + '.</div>' + 
                 '<div class="boxBottom ' + color + '"><a href="Images/Screenshots/' + sortedPlayer[i][0] + '" class="lightbox_trigger">' + 
                     '<i class="fas fa-camera"></i></a></div>' + 
                 '<div class="nameBottom ' + color + '" onclick="sortByNameUp()">' + sortedPlayer[i][1] + '</div>' + 
@@ -41,7 +41,7 @@ function fillGrid() {
                 '<div class="boxBottom ' + color + '" onclick="sortByLevelUp()">' + sortedPlayer[i][7] + '</div>' + 
                 '<div class="boxRightBottom ' + color + '" onclick="sortByDateUp()">' + sortedPlayer[i][8] + '</div>';
             } else {
-                boxes = '<div class="number ' + color + '">' + rank + '.</div>' + 
+                boxes += '<div class="number ' + color + '">' + rank + '.</div>' + 
                 '<div class="box ' + color + '"><a href="Images/Screenshots/' + sortedPlayer[i][0] + '" class="lightbox_trigger">' + 
                     '<i class="fas fa-camera"></i></a></div>' + 
                 '<div class="name ' + color + '" onclick="sortByNameUp()">' + sortedPlayer[i][1] + '</div>' + 
@@ -54,9 +54,9 @@ function fillGrid() {
                 '<div class="boxRight ' + color + '" onclick="sortByDateUp()">' + sortedPlayer[i][8] + '</div>';
             }
 
-    document.getElementById('mainGrid').innerHTML += boxes;
-    rank++;
-                        }
+            rank++;
+        }
+        document.getElementById('mainGrid').innerHTML = markup + boxes;
     lightboxReset();
             }
 
