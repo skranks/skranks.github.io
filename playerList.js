@@ -2448,13 +2448,25 @@ function sortByLevelDown() {
 }
 
 function sortByDateUp() {
-    sortedPlayer = player.sort((a, b) => b[8].localeCompare(a[8]));
+    sortedPlayer = player.sort((a, b) => getTimestamp(b[8]) - getTimestamp(a[8]));
 
     fillGrid();
 }
 
 function sortByDateDown() {
-    sortedPlayer = player.sort((a, b) => a[8].localeCompare(b[8]));
+    sortedPlayer = player.sort((a, b) => getTimestamp(a[8]) - getTimestamp(b[8]));
 
     fillGrid();
+}
+
+function getTimestamp(string) {
+    if (!string) {
+        return 0;
+    }
+    const dateInformation = string.split('/');
+    const date = new Date();
+    date.setMonth(dateInformation[0] - 1);
+    date.setDate(dateInformation[1]);
+    date.setFullYear(dateInformation[2]);
+    return date.getTime();
 }
