@@ -2285,7 +2285,7 @@ let player = [
 	 627,
 	 2871,
 	 '1.11',
-	 62,
+	 19,
 	 '9/17/2021'],
     ['TCW The Cubing Wolflyn.png',
      'TCW The Cubing Wolflyn',
