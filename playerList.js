@@ -1,6 +1,6 @@
 const newPlayer = '&nbsp;<img class="newPlayer" src="Images/new-icon-28.png">';
 
-let player = [
+/*let smashKartsPlayerData = [
     ['_GojoSatoru_.png',
 	 '_GojoSatoru_' + newPlayer,
 	 659,
@@ -2926,102 +2926,102 @@ let player = [
      '1.44',
      '',
      '5/19/2021']
-];
+]; */
 
 function sortByNameUp() {
-    sortedPlayer = player.sort((a, b) => a[1].localeCompare(b[1]));
+    sortedPlayer = smashKartsPlayerData.sort((a, b) => a.username.localeCompare(b.username));
     /*sortedPlayer = player.sort();*/
 
     fillGrid();
 }
 
 function sortByNameDown() {
-    sortedPlayer = player.sort((a, b) => b[1].localeCompare(a[1]));
+    sortedPlayer = smashKartsPlayerData.sort((a, b) => b.username.localeCompare(a.username));
     /*sortedPlayer = player.sort();*/
 
     fillGrid();
 }
 
 function sortByWinsUp() {
-    sortedPlayer = player.sort((a, b)=>b[2]-a[2]);
+    sortedPlayer = smashKartsPlayerData.sort((a, b)=>b.wins-a.wins);
 
     fillGrid();
 }
 
 function sortByWinsDown() {
-    sortedPlayer = player.sort((a, b)=>a[2]-b[2]);
+    sortedPlayer = smashKartsPlayerData.sort((a, b)=>a.wins-b.wins);
 
     fillGrid();
 }
 
 function sortByKillsUp() {
-    sortedPlayer = player.sort((a, b)=>b[3]-a[3]);
+    sortedPlayer = smashKartsPlayerData.sort((a, b)=>b.kills-a.kills);
 
     fillGrid();
 }
 
 function sortByKillsDown() {
-    sortedPlayer = player.sort((a, b)=>a[3]-b[3]);
+    sortedPlayer = smashKartsPlayerData.sort((a, b)=>a.kills-b.kills);
 
     fillGrid();
 }
 
 function sortByBotKillsUp() {
-    sortedPlayer = player.sort((a, b)=>b[4]-a[4]);
+    sortedPlayer = smashKartsPlayerData.sort((a, b)=>b.botKills-a.botKills);
 
     fillGrid();
 }
 
 function sortByBotKillsDown() {
-    sortedPlayer = player.sort((a, b)=>a[4]-b[4]);
+    sortedPlayer = smashKartsPlayerData.sort((a, b)=>a.botKills-b.botKills);
 
     fillGrid();
 }
 
 function sortByDeathsUp() {
-    sortedPlayer = player.sort((a, b)=>b[5]-a[5]);
+    sortedPlayer = smashKartsPlayerData.sort((a, b)=>b.deaths-a.deaths);
 
     fillGrid();
 }
 
 function sortByDeathsDown() {
-    sortedPlayer = player.sort((a, b)=>a[5]-b[5]);
+    sortedPlayer = smashKartsPlayerData.sort((a, b)=>a.deaths-b.deaths);
 
     fillGrid();
 }
 
 function sortByKdrUp() {
-    sortedPlayer = player.sort((a, b)=>b[6]-a[6]);
+    sortedPlayer = smashKartsPlayerData.sort((a, b)=>b.kdr-a.kdr);
 
     fillGrid();
 }
 
 function sortByKdrDown() {
-    sortedPlayer = player.sort((a, b)=>a[6]-b[6]);
+    sortedPlayer = smashKartsPlayerData.sort((a, b)=>a.kdr-b.kdr);
 
     fillGrid();
 }
 
 function sortByLevelUp() {
-    sortedPlayer = player.sort((a, b)=>b[7]-a[7]);
+    sortedPlayer = smashKartsPlayerData.sort((a, b)=>formatLevel(b.level)-formatLevel(a.level));
 
     fillGrid();
 }
 
 function sortByLevelDown() {
-    sortedPlayer = player.sort((a, b)=>a[7]-b[7]);
+    sortedPlayer = smashKartsPlayerData.sort((a, b)=>formatLevel(a.level)-formatLevel(b.level));
 
     fillGrid();
 }
 
 function sortByDateUp() {
-    sortedPlayer = player.sort((a, b) => getTimestamp(b[8]) - getTimestamp(a[8]));
+    sortedPlayer = smashKartsPlayerData.sort((a, b) => getTimestamp(b.lastUpdated) - getTimestamp(a.lastUpdated));
 
     fillGrid();
 }
 
 function sortByDateDown() {
-    sortedPlayer = player.sort((a, b) => getTimestamp(a[8]) - getTimestamp(b[8]));
+    sortedPlayer = smashKartsPlayerData.sort((a, b) => getTimestamp(a.lastUpdated) - getTimestamp(b.lastUpdated));
 
     fillGrid();
 }
@@ -3036,4 +3036,8 @@ function getTimestamp(string) {
     date.setDate(dateInformation[1]);
     date.setFullYear(dateInformation[2]);
     return date.getTime();
+}
+
+function formatLevel(level) {
+    return level ? level : 0;
 }
