@@ -27,31 +27,31 @@ function fillGrid() {
     for (let i=0; i < sortedPlayer.length; i++) {
         if (i % 2 == 0) {color = 'color1';}
             else {color = 'color2';}
-
+            const playerData = sortedPlayer[i];
             if(i + 1 == sortedPlayer.length) {
                 boxes += '<div class="numberBottom ' + color + '">' + rank + '.</div>' + 
-                '<div class="boxBottom ' + color + '"><a href="Images/Screenshots/' + sortedPlayer[i][0] + '" class="lightbox_trigger">' + 
+                '<div class="boxBottom ' + color + '"><a href="Images/Screenshots/' + playerData.username + '.png' + '" class="lightbox_trigger">' + 
                     '<i class="fas fa-camera"></i></a></div>' + 
-                '<div class="nameBottom ' + color + '" onclick="sortByNameUp()">' + sortedPlayer[i][1] + '</div>' + 
-                '<div class="boxBottom ' + color + '" onclick="sortByWinsUp()">' + sortedPlayer[i][2] + '</div>' + 
-                '<div class="boxBottom ' + color + '" onclick="sortByKillsUp()">' + sortedPlayer[i][3] + '</div>' + 
-                '<div class="boxBottom ' + color + '" onclick="sortByBotKillsUp()">' + sortedPlayer[i][4] + '</div>' + 
-                '<div class="boxBottom ' + color + '" onclick="sortByDeathsUp()">' + sortedPlayer[i][5] + '</div>' + 
-                '<div class="boxBottom ' + color + '" onclick="sortByKdrUp()">' + sortedPlayer[i][6] + '</div>' +
-                '<div class="boxBottom ' + color + '" onclick="sortByLevelUp()">' + sortedPlayer[i][7] + '</div>' + 
-                '<div class="boxRightBottom ' + color + '" onclick="sortByDateUp()">' + sortedPlayer[i][8] + '</div>';
+                '<div class="nameBottom ' + color + '" onclick="sortByNameUp()">' + playerData.username + (playerData.newEntry ? newPlayer : '') + '</div>' + 
+                '<div class="boxBottom ' + color + '" onclick="sortByWinsUp()">' + playerData.wins + '</div>' + 
+                '<div class="boxBottom ' + color + '" onclick="sortByKillsUp()">' + playerData.kills + '</div>' + 
+                '<div class="boxBottom ' + color + '" onclick="sortByBotKillsUp()">' + playerData.botKills + '</div>' + 
+                '<div class="boxBottom ' + color + '" onclick="sortByDeathsUp()">' + playerData.deaths + '</div>' + 
+                '<div class="boxBottom ' + color + '" onclick="sortByKdrUp()">' + playerData.kdr.toFixed(2) + '</div>' +
+                '<div class="boxBottom ' + color + '" onclick="sortByLevelUp()">' + (playerData.level ? playerData.level : '?') + '</div>' + 
+                '<div class="boxRightBottom ' + color + '" onclick="sortByDateUp()">' + (playerData.lastUpdated ? playerData.lastUpdated : '?') + '</div>';
             } else {
                 boxes += '<div class="number ' + color + '">' + rank + '.</div>' + 
-                '<div class="box ' + color + '"><a href="Images/Screenshots/' + sortedPlayer[i][0] + '" class="lightbox_trigger">' + 
+                '<div class="box ' + color + '"><a href="Images/Screenshots/' + playerData.username + '.png' + '" class="lightbox_trigger">' + 
                     '<i class="fas fa-camera"></i></a></div>' + 
-                '<div class="name ' + color + '" onclick="sortByNameUp()">' + sortedPlayer[i][1] + '</div>' + 
-                '<div class="box ' + color + '" onclick="sortByWinsUp()">' + sortedPlayer[i][2] + '</div>' + 
-                '<div class="box ' + color + '" onclick="sortByKillsUp()">' + sortedPlayer[i][3] + '</div>' + 
-                '<div class="box ' + color + '" onclick="sortByBotKillsUp()">' + sortedPlayer[i][4] + '</div>' + 
-                '<div class="box ' + color + '" onclick="sortByDeathsUp()">' + sortedPlayer[i][5] + '</div>' + 
-                '<div class="box ' + color + '" onclick="sortByKdrUp()">' + sortedPlayer[i][6] + '</div>' +
-                '<div class="box ' + color + '" onclick="sortByLevelUp()">' + sortedPlayer[i][7] + '</div>' + 
-                '<div class="boxRight ' + color + '" onclick="sortByDateUp()">' + sortedPlayer[i][8] + '</div>';
+                '<div class="name ' + color + '" onclick="sortByNameUp()">' + playerData.username + (playerData.newEntry ? newPlayer : '') + '</div>' + 
+                '<div class="box ' + color + '" onclick="sortByWinsUp()">' + playerData.wins + '</div>' + 
+                '<div class="box ' + color + '" onclick="sortByKillsUp()">' + playerData.kills + '</div>' + 
+                '<div class="box ' + color + '" onclick="sortByBotKillsUp()">' + playerData.botKills + '</div>' + 
+                '<div class="box ' + color + '" onclick="sortByDeathsUp()">' + playerData.deaths + '</div>' + 
+                '<div class="box ' + color + '" onclick="sortByKdrUp()">' + playerData.kdr.toFixed(2) + '</div>' +
+                '<div class="box ' + color + '" onclick="sortByLevelUp()">' + (playerData.level ? playerData.level : '?') + '</div>' + 
+                '<div class="boxRight ' + color + '" onclick="sortByDateUp()">' + (playerData.lastUpdated ? playerData.lastUpdated : '?') + '</div>';
             }
 
             rank++;
@@ -102,3 +102,5 @@ function lightboxReset() {
         }
     })
 }
+
+sortByWinsUp();
