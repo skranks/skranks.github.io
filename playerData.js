@@ -33,15 +33,14 @@ oldFormat is the old massive array of arrays, newFormat is smashKartsPlayerData 
 
 
 const smashKartsPlayerData = [{
-    "username": "_GojoSatoru_",
-    "kills": 18255,
-    "botKills": 1014,
-    "deaths": 13851,
-    "kdr": 1.32,
-    "wins": 659,
-    "newEntry": true,
+    "username": "Gojo",
+    "kills": 20008,
+    "botKills": 1051,
+    "deaths": 15097,
+    "kdr": 1.33,
+    "wins": 702,
     "level": 60,
-    "lastUpdated": "11/4/2021"
+    "lastUpdated": "11/11/2021"
 },
 {
     "username": "007",
@@ -55,13 +54,13 @@ const smashKartsPlayerData = [{
 },
 {
     "username": "1NF1N1TE",
-    "kills": 7012,
-    "botKills": 479,
-    "deaths": 5065,
-    "kdr": 1.38,
-    "wins": 360,
-    "level": 29,
-    "lastUpdated": "11/4/2021"
+    "kills": 9000,
+    "botKills": 587,
+    "deaths": 6267,
+    "kdr": 1.44,
+    "wins": 476,
+    "level": 33,
+    "lastUpdated": "11/11/2021"
 },
 {
     "username": "2Fast2Furious",
@@ -206,6 +205,17 @@ const smashKartsPlayerData = [{
     "wins": 1414
 },
 {
+    "username": "Allen",
+    "newEntry": true,
+    "kills": 4791,
+    "botKills": 209,
+    "deaths": 2678,
+    "kdr": 1.79,
+    "wins": 325,
+    "level": 24,
+    "lastUpdated": "11/11/2021",
+},
+{
     "username": "allstarcat",
     "kills": 7519,
     "botKills": 815,
@@ -236,13 +246,13 @@ const smashKartsPlayerData = [{
 },
 {
     "username": "ANCIENT",
-    "kills": 32940,
-    "botKills": 934,
-    "deaths": 17279,
-    "kdr": 1.91,
-    "wins": 2121,
-    "level": 51,
-    "lastUpdated": "10/17/2021"
+    "kills": 34002,
+    "botKills": 935,
+    "deaths": 17879,
+    "kdr": 1.90,
+    "wins": 2180,
+    "level": 53,
+    "lastUpdated": "11/11/2021"
 },
 {
     "username": "Anjel lunar_057",
@@ -384,13 +394,13 @@ const smashKartsPlayerData = [{
 },
 {
     "username": "BossAngeles",
-    "kills": 21107,
-    "botKills": 190,
-    "deaths": 12445,
-    "kdr": 1.7,
-    "wins": 1207,
-    "level": 50,
-    "lastUpdated": "11/4/2021"
+    "kills": 23550,
+    "botKills": 199,
+    "deaths": 13410,
+    "kdr": 1.76,
+    "wins": 1370,
+    "level": 58,
+    "lastUpdated": "11/11/2021"
 },
 {
     "username": "BottyMcBotFace",
@@ -404,13 +414,13 @@ const smashKartsPlayerData = [{
 },
 {
     "username": "Bowser",
-    "kills": 60092,
-    "botKills": 9228,
-    "deaths": 26764,
-    "kdr": 2.25,
-    "wins": 4002,
-    "level": 50,
-    "lastUpdated": "10/17/2021"
+    "kills": 64340,
+    "botKills": 9231,
+    "deaths": 28023,
+    "kdr": 2.30,
+    "wins": 4268,
+    "level": 58,
+    "lastUpdated": "11/11/2021"
 },
 {
     "username": "caterizer",
@@ -433,14 +443,14 @@ const smashKartsPlayerData = [{
     "lastUpdated": "8/4/2021"
 },
 {
-    "username": "TheVladyBoi",
-    "kills": 49954,
-    "botKills": 3711,
-    "deaths": 23310,
-    "kdr": 2.14,
-    "wins": 3277,
-    "level": 53,
-    "lastUpdated": "11/4/2021"
+    "username": "VladyBoiSK",
+    "kills": 52450,
+    "botKills": 3719,
+    "deaths": 24169,
+    "kdr": 2.17,
+    "wins": 3441,
+    "level": 60,
+    "lastUpdated": "11/11/2021"
 },
 {
     "username": "cbc",
@@ -603,7 +613,6 @@ const smashKartsPlayerData = [{
     "deaths": 10534,
     "kdr": 1.66,
     "wins": 500,
-    "newEntry": true,
     "lastUpdated": "11/4/2021"
 },
 {
@@ -643,7 +652,6 @@ const smashKartsPlayerData = [{
     "deaths": 508,
     "kdr": 0.92,
     "wins": 16,
-    "newEntry": true,
     "level": 8,
     "lastUpdated": "11/4/2021"
 },
@@ -734,7 +742,6 @@ const smashKartsPlayerData = [{
     "deaths": 1481,
     "kdr": 1.3,
     "wins": 49,
-    "newEntry": true,
     "level": 9,
     "lastUpdated": "11/4/2021"
 },
@@ -934,23 +941,23 @@ const smashKartsPlayerData = [{
 },
 {
     "username": "Fru",
-    "kills": 10015,
-    "botKills": 288,
-    "deaths": 5594,
-    "kdr": 1.79,
-    "wins": 699,
-    "level": 14,
-    "lastUpdated": "7/31/2021"
+    "kills": 10992,
+    "botKills": 303,
+    "deaths": 6235,
+    "kdr": 1.76,
+    "wins": 744,
+    "level": 18,
+    "lastUpdated": "11/11/2021"
 },
 {
     "username": "Fubster",
-    "kills": 35826,
-    "botKills": 156,
-    "deaths": 19522,
-    "kdr": 1.84,
-    "wins": 2276,
+    "kills": 37108,
+    "botKills": 161,
+    "deaths": 20101,
+    "kdr": 1.85,
+    "wins": 2367,
     "level": 60,
-    "lastUpdated": "11/4/2021"
+    "lastUpdated": "11/11/2021"
 },
 {
     "username": "GANPATJAAT",
@@ -1039,7 +1046,6 @@ const smashKartsPlayerData = [{
     "deaths": 919,
     "kdr": 1.23,
     "wins": 55,
-    "newEntry": true,
     "lastUpdated": "11/4/2021"
 },
 {
@@ -1072,24 +1078,23 @@ const smashKartsPlayerData = [{
 },
 {
     "username": "Guardian",
-    "kills": 30437,
-    "botKills": 1761,
-    "deaths": 20526,
-    "kdr": 1.48,
-    "wins": 1500,
+    "kills": 34825,
+    "botKills": 1802,
+    "deaths": 23091,
+    "kdr": 1.51,
+    "wins": 1709,
     "level": 60,
-    "lastUpdated": "11/4/2021"
+    "lastUpdated": "11/11/2021"
 },
 {
     "username": "Hackbuster",
-    "kills": 51924,
-    "botKills": 3513,
-    "deaths": 30441,
+    "kills": 53960,
+    "botKills": 3596,
+    "deaths": 31526,
     "kdr": 1.71,
-    "wins": 3096,
-    "newEntry": true,
+    "wins": 3194,
     "level": 60,
-    "lastUpdated": "11/4/2021"
+    "lastUpdated": "11/11/2021"
 },
 {
     "username": "haedcase",
@@ -1128,7 +1133,6 @@ const smashKartsPlayerData = [{
     "deaths": 6548,
     "kdr": 1.96,
     "wins": 771,
-    "newEntry": true,
     "level": 37,
     "lastUpdated": "11/4/2021"
 },
@@ -1141,6 +1145,17 @@ const smashKartsPlayerData = [{
     "wins": 1386,
     "level": 29,
     "lastUpdated": "11/4/2021"
+},
+{
+    "username": "HI",
+    "newEntry": true,
+    "kills": 2630,
+    "botKills": 199,
+    "deaths": 1886,
+    "kdr": 1.39,
+    "wins": 77,
+    "level": 19,
+    "lastUpdated": "11/11/2021",
 },
 {
     "username": "hotlex",
@@ -1205,7 +1220,6 @@ const smashKartsPlayerData = [{
     "deaths": 5613,
     "kdr": 1.41,
     "wins": 349,
-    "newEntry": true,
     "level": 30,
     "lastUpdated": "11/4/2021"
 },
@@ -1271,14 +1285,13 @@ const smashKartsPlayerData = [{
 },
 {
     "username": "jeffonois",
-    "kills": 7137,
-    "botKills": 606,
-    "deaths": 5386,
-    "kdr": 1.33,
-    "wins": 229,
-    "newEntry": true,
+    "kills": 7219,
+    "botKills": 615,
+    "deaths": 5460,
+    "kdr": 1.32,
+    "wins": 230,
     "level": 25,
-    "lastUpdated": "11/4/2021"
+    "lastUpdated": "11/11/2021"
 },
 {
     "username": "JisgoodSK",
@@ -1396,7 +1409,6 @@ const smashKartsPlayerData = [{
     "deaths": 11795,
     "kdr": 1.71,
     "wins": 1318,
-    "newEntry": true,
     "lastUpdated": "11/4/2021"
 },
 {
@@ -1455,14 +1467,14 @@ const smashKartsPlayerData = [{
     "wins": 770
 },
 {
-    "username": "LadyGripReaper",
+    "username": "LadyGrimReaper",
     "kills": 15659,
     "botKills": 1121,
     "deaths": 8839,
-    "kdr": 1.77,
-    "wins": 1118,
-    "level": 42,
-    "lastUpdated": "11/4/2021"
+    "kdr": 1.76,
+    "wins": 1168,
+    "level": 45,
+    "lastUpdated": "11/11/2021"
 },
 {
     "username": "LamboTomST",
@@ -1520,7 +1532,6 @@ const smashKartsPlayerData = [{
     "deaths": 18830,
     "kdr": 1.71,
     "wins": 1689,
-    "newEntry": true,
     "level": 59,
     "lastUpdated": "11/4/2021"
 },
@@ -1709,6 +1720,17 @@ const smashKartsPlayerData = [{
     "lastUpdated": "5/22/2021"
 },
 {
+    "username": "mogunning",
+    "newEntry": true,
+    "kills": 16376,
+    "botKills": 1213,
+    "deaths": 8271,
+    "kdr": 1.98,
+    "wins": 1067,
+    "level": 31,
+    "lastUpdated": "11/11/2021",
+},
+{
     "username": "MotionMoose",
     "kills": 13342,
     "botKills": 1444,
@@ -1775,13 +1797,13 @@ const smashKartsPlayerData = [{
 },
 {
     "username": "NA",
-    "kills": 30000,
-    "botKills": 410,
-    "deaths": 15794,
-    "kdr": 1.9,
-    "wins": 1511,
-    "level": 50,
-    "lastUpdated": "9/25/2021"
+    "kills": 38417,
+    "botKills": 433,
+    "deaths": 19188,
+    "kdr": 2.00,
+    "wins": 2006,
+    "level": 60,
+    "lastUpdated": "11/11/2021"
 },
 {
     "username": "Neon",
@@ -1820,8 +1842,18 @@ const smashKartsPlayerData = [{
     "deaths": 4532,
     "kdr": 1.05,
     "wins": 254,
-    "newEntry": true,
     "lastUpdated": "11/4/2021"
+},
+{
+    "username": "Augusto8",
+    "newEntry": true,
+    "kills": 5692,
+    "botKills": 884,
+    "deaths": 3152,
+    "kdr": 1.81,
+    "wins": 410,
+    "level": 22,
+    "lastUpdated": "11/11/2021",
 },
 {
     "username": "AUTIST",
@@ -1830,20 +1862,18 @@ const smashKartsPlayerData = [{
     "deaths": 408,
     "kdr": 1.29,
     "wins": 25,
-    "newEntry": true,
     "level": 10,
     "lastUpdated": "11/4/2021"
 },
 {
-    "username": "axelsen curry yagood",
-    "kills": 8705,
-    "botKills": 1070,
-    "deaths": 6508,
-    "kdr": 1.34,
-    "wins": 350,
-    "newEntry": true,
-    "level": 38,
-    "lastUpdated": "11/4/2021"
+    "username": "IwannaBURGERboi", // axelsen curry yagood
+    "kills": 9698,
+    "botKills": 1145,
+    "deaths": 6972,
+    "kdr": 1.39,
+    "wins": 404,
+    "level": 42,
+    "lastUpdated": "11/11/2021"
 },
 {
     "username": "nicky",
@@ -1876,13 +1906,13 @@ const smashKartsPlayerData = [{
 },
 {
     "username": "NIGHTMARE",
-    "kills": 10495,
-    "botKills": 509,
-    "deaths": 6474,
-    "kdr": 1.62,
-    "wins": 401,
+    "kills": 13515,
+    "botKills": 681,
+    "deaths": 8123,
+    "kdr": 1.66,
+    "wins": 518,
     "level": 37,
-    "lastUpdated": "11/4/2021"
+    "lastUpdated": "11/11/2021"
 },
 {
     "username": "nikita",
@@ -1991,13 +2021,13 @@ const smashKartsPlayerData = [{
 },
 {
     "username": "OliverD",
-    "kills": 4936,
-    "botKills": 546,
-    "deaths": 3264,
-    "kdr": 1.51,
-    "wins": 305,
-    "level": 24,
-    "lastUpdated": "11/4/2021"
+    "kills": 6290,
+    "botKills": 665,
+    "deaths": 4058,
+    "kdr": 1.55,
+    "wins": 381,
+    "level": 27,
+    "lastUpdated": "11/11/2021"
 },
 {
     "username": "Oogway",
@@ -2179,7 +2209,6 @@ const smashKartsPlayerData = [{
     "deaths": 17038,
     "kdr": 1.47,
     "wins": 1293,
-    "newEntry": true,
     "level": 60,
     "lastUpdated": "11/4/2021"
 },
@@ -2232,13 +2261,24 @@ const smashKartsPlayerData = [{
     "lastUpdated": "5/31/2021"
 },
 {
-    "username": "Spookster",
-    "kills": 60917,
-    "botKills": 2430,
-    "deaths": 26658,
-    "kdr": 2.29,
-    "wins": 3896,
-    "lastUpdated": "11/4/2021"
+    "username": "Pro_Player5253",
+    "newEntry": true,
+    "kills": 153,
+    "botKills": 42,
+    "deaths": 136,
+    "kdr": 1.13,
+    "wins": 3,
+    "level": 5,
+    "lastUpdated": "11/11/2021",
+},
+{
+    "username": "ProMaster",
+    "kills": 62956,
+    "botKills": 2459,
+    "deaths": 27427,
+    "kdr": 2.30,
+    "wins": 4033,
+    "lastUpdated": "11/11/2021"
 },
 {
     "username": "punya fanyz",
@@ -2335,13 +2375,13 @@ const smashKartsPlayerData = [{
 },
 {
     "username": "RocketFrog",
-    "kills": 59356,
-    "botKills": 436,
-    "deaths": 26106,
-    "kdr": 2.27,
-    "wins": 4161,
+    "kills": 60000,
+    "botKills": 437,
+    "deaths": 26334,
+    "kdr": 2.28,
+    "wins": 4204,
     "level": 60,
-    "lastUpdated": "11/4/2021"
+    "lastUpdated": "11/11/2021"
 },
 {
     "username": "romesh",
@@ -2489,7 +2529,6 @@ const smashKartsPlayerData = [{
     "deaths": 3464,
     "kdr": 0.9,
     "wins": 109,
-    "newEntry": true,
     "level": 20,
     "lastUpdated": "11/4/2021"
 },
@@ -2752,7 +2791,6 @@ const smashKartsPlayerData = [{
     "deaths": 2579,
     "kdr": 1.64,
     "wins": 282,
-    "newEntry": true,
     "level": 22,
     "lastUpdated": "11/4/2021"
 },
@@ -2763,9 +2801,18 @@ const smashKartsPlayerData = [{
     "deaths": 11538,
     "kdr": 1.77,
     "wins": 1176,
-    "newEntry": true,
     "level": 37,
     "lastUpdated": "11/4/2021"
+},
+{
+    "username": "sussy baka",
+    "newEntry": true,
+    "kills": 4047,
+    "botKills": 301,
+    "deaths": 4854,
+    "kdr": 0.83,
+    "wins": 127,
+    "lastUpdated": "11/11/2021",
 },
 {
     "username": "DragonMaster19yt",
@@ -2908,13 +2955,13 @@ const smashKartsPlayerData = [{
     "lastUpdated": "8/19/2021"
 },
 {
-    "username": "THANOS",
-    "kills": 11675,
-    "botKills": 1168,
-    "deaths": 6001,
-    "kdr": 1.95,
-    "wins": 911,
-    "lastUpdated": "10/17/2021"
+    "username": "Epic", // Thor or Thanos
+    "kills": 14450,
+    "botKills": 1404,
+    "deaths": 7351,
+    "kdr": 1.97,
+    "wins": 1105,
+    "lastUpdated": "11/11/2021"
 },
 {
     "username": "TheCook",
@@ -2926,13 +2973,24 @@ const smashKartsPlayerData = [{
 },
 {
     "username": "theworstplayer",
-    "kills": 9089,
-    "botKills": 453,
-    "deaths": 6078,
-    "kdr": 1.5,
-    "wins": 492,
-    "level": 34,
-    "lastUpdated": "11/4/2021"
+    "kills": 10230,
+    "botKills": 467,
+    "deaths": 6666,
+    "kdr": 1.53,
+    "wins": 563,
+    "level": 38,
+    "lastUpdated": "11/11/2021"
+},
+{
+    "username": "THUNDER",
+    "newEntry": true,
+    "kills": 12736,
+    "botKills": 484,
+    "deaths": 9889,
+    "kdr": 1.29,
+    "wins": 405,
+    "level": 42,
+    "lastUpdated": "11/11/2021",
 },
 {
     "username": "xAncientNOVAx",
@@ -2946,13 +3004,13 @@ const smashKartsPlayerData = [{
 },
 {
     "username": "TomCruise",
-    "kills": 53341,
-    "botKills": 1049,
-    "deaths": 24838,
-    "kdr": 2.15,
-    "wins": 3150,
-    "level": 52,
-    "lastUpdated": "10/17/2021"
+    "kills": 56913,
+    "botKills": 1058,
+    "deaths": 26660,
+    "kdr": 2.13,
+    "wins": 3329,
+    "level": 60,
+    "lastUpdated": "11/11/2021"
 },
 {
     "username": "Toreja",
@@ -3012,14 +3070,25 @@ const smashKartsPlayerData = [{
     "lastUpdated": "8/27/2021"
 },
 {
+    "username": "Virat Kohli",
+    "newEntry": true,
+    "kills": 13555,
+    "botKills": 676,
+    "deaths": 9238,
+    "kdr": 1.47,
+    "wins": 620,
+    "level": 37,
+    "lastUpdated": "11/11/2021",
+},
+{
     "username": "VK",
-    "kills": 41009,
+    "kills": 42539,
     "botKills": 357,
-    "deaths": 15282,
-    "kdr": 2.68,
-    "wins": 2804,
-    "level": 56,
-    "lastUpdated": "11/4/2021"
+    "deaths": 15744,
+    "kdr": 2.70,
+    "wins": 2905,
+    "level": 60,
+    "lastUpdated": "11/11/2021"
 },
 {
     "username": "Waris Ja",
