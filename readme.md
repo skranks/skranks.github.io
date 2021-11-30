@@ -20,6 +20,7 @@ https://skranks.github.io/
         "deaths": 13851,                // Number
         "kdr": 1.32,                    // Number
         "wins": 659,                    // Number
+        "games": 12343                  // Number, this key is not guarenteed to exist
         "newEntry": true,               // Only if this user is brand new to the leaderboard. Next leaderboard update this must be removed manually
         "level": 60,                    // Number, ignore adding key if no level has ever been given
         "lastUpdated": "11/4/2021",     // String (M/D/YYYY)
